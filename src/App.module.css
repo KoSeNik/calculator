@@ -9,10 +9,6 @@
 	color: white;
 }
 
-.header {
-	/* padding-bottom: 30px; */
-}
-
 .display {
 	font-size: calc(30px + 2vmin);
 	margin: 30px;
