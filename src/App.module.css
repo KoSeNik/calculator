@@ -1,0 +1,46 @@
+.app {
+	text-align: center;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.header {
+	/* padding-bottom: 30px; */
+}
+
+.display {
+	font-size: calc(30px + 2vmin);
+	margin: 30px;
+}
+
+.buttonsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: calc(300px + 2vmin);
+}
+
+.buttonNumner {
+	flex: 1 1 33%;
+	width: calc(50px + 2vmin);
+	height: calc(50px + 2vmin);
+	font-size: 35px;
+}
+
+.buttonOperator {
+	flex: 1 1 25%;
+	width: calc(50px + 2vmin);
+	height: calc(50px + 2vmin);
+	font-size: 25px;
+}
+
+.isResult {
+	font-size: calc(30px + 2vmin);
+	margin: 30px;
+	color: green;
+	font-weight: bold;
+}
